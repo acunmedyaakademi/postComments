@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+ body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(https://products.ls.graphics/mesh-gradients/images/32.-Banana-Mania.jpg);
+  background-size: cover
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* #postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 16px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  background-color: lightcoral;
+  border-radius: 8px;
+}
+
+.post h1 {
+  color: rgba(141, 0, 0, 0.885);
+}
+
+.post p {
+  color: white;
+}
+
+#commentss {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: rgba(174, 173, 170, 0.712);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+
+#commentss span {
+  color: rgb(205, 52, 52);
+} */
+
+
+
+
+
+#postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.postBox {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 16px;
+}
+
+.post {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.post h1 {
+  color: #d9534f; 
+  margin-bottom: 10px;
+}
+
+.post p {
+  color: #2f4f4f; 
+}
+
+.postComments {
+  background-color: #e0f7fa;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+  transition: transform 0.3s;
+}
+
+.postComments:hover {
+  transform: scale(1.02);
+}
+
+.postComments p {
+  color: #2f4f4f; 
+}
+
+.postComments p span {
+  font-weight: bold;
+  color: #d9534f; 
+}
+
